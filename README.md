@@ -1,4 +1,3 @@
 # Fall2017Swe573-ace
-Software Development Practice
-This repository contains (and shall contain) all the **information** about the application developing during the
-Software Development Practive course.
+##**Software Development Practice**
+This repository is related with the Software Development Practice course and its related materials.
