@@ -4,7 +4,7 @@ This repository is related with the Software Development Practice course and its
 
 ### How to Create a Web Server
 
-A web server can be created easily with the help of the Eclipse IDE.
+A web server can easily be created with the help of the Eclipse IDE. After the creation of the new "Spring Starter Project", the application can be run as "Spring Boot App". Then, the tomcat would start on port 8080.
 
 ### Issue Management
 
