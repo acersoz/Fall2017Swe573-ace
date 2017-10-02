@@ -25,6 +25,11 @@ Moreover, the labels have been decided for the issues. These labels are as follo
 
 ### Project Tools
 
+* Java is selected to develop the application. It will be a Spring Boot application.
+* Eclipse IDE would be used during the project.
+* To design the front-end, Angular2 and the Angular CLI tool would be used.
+* MySQL would be used as the RDBMS of the project.
+
 ### Project Scope
 
 ### API
