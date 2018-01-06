@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.bookstore.test.user.BookTagUnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.872 sec <<< FAILURE! - in com.bookstore.test.user.BookTagUnitTest
+createBookTags(com.bookstore.test.user.BookTagUnitTest)  Time elapsed: 6.621 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bookstore.test.user.BookTagUnitTest.createBookTags(BookTagUnitTest.java:68)
+

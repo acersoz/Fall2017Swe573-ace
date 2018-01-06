@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.bookstore.test.user.UserUnitTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.081 sec <<< FAILURE! - in com.bookstore.test.user.UserUnitTest
+selectUser(com.bookstore.test.user.UserUnitTest)  Time elapsed: 1.511 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bookstore.test.user.UserUnitTest.selectUser(UserUnitTest.java:87)
+

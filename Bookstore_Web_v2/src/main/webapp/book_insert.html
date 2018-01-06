@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+	<body ng-app="BookstoreApp" ng-controller="BookInsertCtrl">
+	
+		<div ng-show="saveStatus == false">
+			<div><input type="text" ng-model="name" placeholder="Enter book name..."></input></br></div>
+			<div><button ng-click="loadBookFromGoogleApi()">Search</button></div>
+			<div><input type="text" ng-model="author" placeholder="Enter authors ..."></input></br></div>
+			<div><input type="text" ng-model="publisher" placeholder="Enter publisher name..."></input></br></div>
+			<div><input type="text" ng-model="publishedDate" placeholder="Enter publish date..."></input></br></div>
+			<div><textarea rows="4" cols="50" type="text" ng-model="description" placeholder="Description"></textarea> </br></div>
+			<div><button ng-click="insertBook()">Save</button></div>
+		</div>
+		<div ng-show="saveStatus == true">
+			<p>Book added successfully!</p>
+		</div>
+		
+		<script src="js/angular.js"></script>
+		<script src="js/angular-route.js"></script>
+		
+	</body>
+</html>

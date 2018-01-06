@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.bookstore.test.user.RoleUnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.bookstore.test.user.RoleUnitTest
+selectRoleList(com.bookstore.test.user.RoleUnitTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.bookstore.test.user.RoleUnitTest.selectRoleList(RoleUnitTest.java:40)
+
